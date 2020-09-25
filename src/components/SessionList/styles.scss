@@ -1,0 +1,17 @@
+@import '../../assets/colors';
+
+.session-list {
+	margin: 0;
+	padding: 0;
+	max-height: 390px;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	&__item {
+		list-style: none;
+	}
+
+	&__item:nth-child(2n + 1) .session {
+		background-color: $secondary;
+	}
+}

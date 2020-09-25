@@ -1,0 +1,4 @@
+export const CHANGE_TITLE = 'CHANGE_TITLE';
+export const ADD_SESSION = 'ADD_SESSION';
+export const DELETE_SESSION = 'DELETE_SESSION';
+export const EDIT_SESSION_TITLE = 'EDIT_SESSION_TITLE';

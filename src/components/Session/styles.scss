@@ -1,0 +1,39 @@
+@import '../../assets/colors';
+
+.session {
+	display: flex;
+	min-height: 65px;
+	overflow: hidden;
+	color: $font;
+
+	&__open-btn {
+		width: 35px;
+		margin-left: -35px;
+		background: url('../../assets/images/open.svg') center / 70% no-repeat;
+		background-color: $primary;
+		transition: margin-left 0.1s linear;
+		cursor: pointer;
+	}
+
+	&:hover &__open-btn {
+		margin-left: 0;
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+		padding: 5px;
+	}
+
+	&__footer {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__tabs,
+	&__date {
+		opacity: 0.8;
+	}
+}

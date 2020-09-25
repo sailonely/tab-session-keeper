@@ -1,0 +1,33 @@
+@import 'colors';
+
+html,
+body {
+	width: 260px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: 400;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	color: $font;
+	overflow: hidden;
+	background: $primary;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+	background-color: $scrollbar;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: $thumb;
+}
+
+::placeholder {
+	color: $placeholder;
+}
