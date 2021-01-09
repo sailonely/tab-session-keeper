@@ -4,7 +4,7 @@ import TitleInput from '../TitleInput';
 import SaveButton from '../SaveButton';
 import SessionList from '../SessionList';
 import { IState } from '../../types';
-import { addSession, changeTitle } from '../../actions';
+import { addSession, changeTitle } from '../../redux/actions';
 import './styles.scss';
 
 type Props = ConnectedProps<typeof connector>;

@@ -1,4 +1,4 @@
-import { CHANGE_TITLE, ADD_SESSION, DELETE_SESSION, EDIT_SESSION_TITLE } from './constants';
+import { CHANGE_TITLE, ADD_SESSION, DELETE_SESSION, EDIT_SESSION_TITLE } from './redux/reducer';
 
 // Store
 export interface IState {

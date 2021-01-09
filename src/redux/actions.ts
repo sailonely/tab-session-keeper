@@ -4,7 +4,7 @@ import {
 	ADD_SESSION,
 	DELETE_SESSION,
 	EDIT_SESSION_TITLE,
-} from '../constants';
+} from './reducer';
 
 export const changeTitle = (title: string): ActionTypes => {
 	return {

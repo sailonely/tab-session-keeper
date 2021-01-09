@@ -2,7 +2,7 @@ import React from 'react';
 import { connect, ConnectedProps } from 'react-redux';
 import Session from '../Session';
 import { IState } from '../../types';
-import { editSessionTitle, deleteSession } from '../../actions';
+import { editSessionTitle, deleteSession } from '../../redux/actions';
 import './styles.scss';
 
 type Props = ConnectedProps<typeof connector>;
