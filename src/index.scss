@@ -1,15 +1,25 @@
-html {
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Regular.woff2') format('woff2');
   font-weight: 400;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  color: var(--font);
-  background: var(--primary);
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
 }
 
 body {
-  width: 260px;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  width: 260px;
+  background: var(--primary);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: var(--font);
 }
 
 input {
