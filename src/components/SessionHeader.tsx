@@ -53,7 +53,7 @@ export default function SessionHeader({ id, title, setSessions }: IProps) {
             <FaPen size={11} />
           </button>
           <button className="session__control-btn" onClick={() => handleDelete(id)}>
-            <CgClose size={70} />
+            <CgClose size={18} />
           </button>
         </div>
       </div>
