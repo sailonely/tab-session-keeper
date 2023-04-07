@@ -2,7 +2,7 @@ import { useState, memo } from 'react';
 import { TiArrowBack } from 'react-icons/ti';
 import { FiExternalLink } from 'react-icons/fi';
 
-import { TSession, TTab } from '../types';
+import { TSession } from '../types';
 import { formatDate } from '../utils/formatDate';
 import SessionHeader from './SessionHeader';
 
@@ -79,8 +79,9 @@ export default memo(function Session({
 
       {isMenuOpen ? (
         <div className="session__mode-menu">
-          {[EMenu.MT, EMenu.NW, EMenu.CW].map((mode) => (
+          {[EMenu.MT, EMenu.NW, EMenu.CW].map((mode, index) => (
             <button
+              key={index}
               className="session__mode-menu-btn"
               onClick={() => handleMenuBtnClick(mode)}
             >
